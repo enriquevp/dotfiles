@@ -27,6 +27,8 @@ install_pkgs() {
 
 symlink_conf() {
     su enrique
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
+
     for program in $(ls); do
         stow $program
         if [[ $? -eq 0 ]]; then
