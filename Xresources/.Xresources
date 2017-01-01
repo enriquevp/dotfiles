@@ -7,7 +7,7 @@ URxvt.font: xft:Inconsolata:size=14
 URxvt.lineSpace: -2
 URxvt.scrollBar: false
 
-URxvt.perl-ext-common: default, matcher
+URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
 
