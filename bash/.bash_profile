@@ -8,5 +8,6 @@ fi
 # User specific environment and startup programs
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
+PATH="/home/enrique/.anaconda3/bin:$PATH"
 
 export PATH
