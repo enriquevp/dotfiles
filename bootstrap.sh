@@ -13,9 +13,19 @@ check_if_sudo() {
     fi
 }
 
+setup_passwordless_sudo() {
+    USERNAME = "enrique"
+
+    usermod -aG wheel $USERNAME
+
+    gpasswd -a $USERNAME systemd-journal
+    gpasswd -a $USERNAME systemd-network
+
+    echo -e "${USERNAME} ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+}
+
 setup_dnf_repos() {
     dnf copr enable yaroslav/i3desktop
-
 }
 
 install_pkgs() {
@@ -27,6 +37,8 @@ install_pkgs() {
 
 symlink_conf() {
     su enrique
+    git clone https://github.com/tsunehito/dotfiles.git
+    cd dotfiles
     curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
     for program in $(ls); do
