@@ -58,11 +58,11 @@
    dotspacemacs-startup-buffer-responsive t
    dotspacemacs-scratch-mode 'text-mode
    dotspacemacs-themes '(
-                         sanityinc-tomorrow-night
-                         spacemacs-light)
+                         gotham
+                         )
    dotspacemacs-colorize-cursor-according-to-state t
-   dotspacemacs-default-font '("MonacoB2"
-                               :size 17
+   dotspacemacs-default-font '("Consolas"
+                               :size 19
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
