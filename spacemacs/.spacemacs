@@ -159,7 +159,7 @@
             (lambda ()
               (toggle-truncate-lines t)))
 
-  ;; key bindings - network
+  ;; additional evil-leader keybindings
   (spacemacs/declare-prefix "a n" "network")
   (evil-leader/set-key "a n a" 'arp)
   (evil-leader/set-key "a n i" 'ifconfig)
@@ -170,6 +170,8 @@
   (evil-leader/set-key "a n l" 'nslookup)
   (evil-leader/set-key "a n t" 'traceroute)
   (evil-leader/set-key "a n n" 'netstat)
+  (evil-leader/set-key "g L" 'magit-log)
+
 
   ;; Powerline customization
   (setq powerline-default-separator 'arrow)
