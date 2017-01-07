@@ -118,6 +118,8 @@
 
 (defun dotspacemacs/user-config ()
   (set-face-attribute hl-line-face nil :underline t)
+  (set-face-attribute font-lock-comment-delimiter-face nil :slant 'italic)
+  (set-face-attribute font-lock-comment-face nil :slant 'italic)
   (add-to-list 'company-backends 'company-ansible)
   (add-hook 'yaml-mode-hook 'ansible)
 
