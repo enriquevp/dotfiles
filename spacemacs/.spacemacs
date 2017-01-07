@@ -38,6 +38,7 @@
      yaml
      )
    dotspacemacs-additional-packages '(
+                                      rainbow-mode
                                       company-ansible
                                       memory-usage)
    dotspacemacs-frozen-packages '()
