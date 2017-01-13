@@ -3,7 +3,7 @@
 ! *.background: #ffffff
 *.cursorColor:  #fffffc
 
-URxvt.font: xft:Inconsolata:size=14
+URxvt.font: xft:MonacoB2:size=14
 URxvt.lineSpace: -2
 URxvt.scrollBar: false
 
@@ -43,4 +43,4 @@ URxvt.matcher.button: 1
 
 ! white
 *.color7:       #ffffff
-*.color15:      #fffffeoin/bash: special: cemmand not found
+*.color15:      #ffffff
