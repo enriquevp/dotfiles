@@ -1,9 +1,8 @@
 *.foreground:   #ffffff
 *.background:   #09090d
-! *.background: #ffffff
 *.cursorColor:  #fffffc
 
-URxvt.font: xft:MonacoB2:size=14
+URxvt.font: xft:Consolas:size=14
 URxvt.lineSpace: -2
 URxvt.scrollBar: false
 
