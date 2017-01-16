@@ -54,8 +54,6 @@ install_pkgs() {
 }
 
 setup_dotfiles() {
-    git clone https://github.com/tsunehito/dotfiles.git
-    cd dotfiles
     curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
     for program in $(ls -d */); do
