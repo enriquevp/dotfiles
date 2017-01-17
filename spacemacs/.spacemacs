@@ -61,6 +61,7 @@
    dotspacemacs-scratch-mode 'text-mode
    dotspacemacs-themes '(
                          sanityinc-tomorrow-night
+                         sanityinc-tomorrow-day
                          )
    dotspacemacs-colorize-cursor-according-to-state t
    dotspacemacs-default-font '("Consolas"
