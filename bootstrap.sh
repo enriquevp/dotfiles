@@ -30,7 +30,7 @@ setup_dnf_repos() {
 }
 
 setup_fonts() {
-    curl https://gist.github.com/epegzz/1634235/raw/4691e901750591f9cab0b4ae8b7c0731ebf28cce/Monaco_Linux-Powerline.ttf > ~/.fonts/MonacoPowerline.ttf
+    curl https://gist.github.com/epegzz/1634235/raw/4691e901750591f9cab0b4ae8b7c0731ebf28cce/Monaco_Linux-Powerline.ttf -o ~/.fonts/MonacoPowerline.ttf
 
 
     fc-cache -fv
@@ -57,7 +57,7 @@ setup_dotfiles() {
     curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
     for program in $(ls -d */); do
-        program = ${program%%/}
+        program=${program%%/}
         stow $program 
         if [[ $? -eq 0 ]]; then
             echo -e "\nSuccessfully symlinked dotfile(s) for $program"
