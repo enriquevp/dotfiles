@@ -2,7 +2,7 @@
 *.background:   #09090d
 *.cursorColor:  #fffffc
 
-URxvt.font: xft:Consolas:size=14
+URxvt.font: xft:Consolas:size=15
 URxvt.lineSpace: -2
 URxvt.scrollBar: false
 
