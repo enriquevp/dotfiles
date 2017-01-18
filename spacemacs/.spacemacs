@@ -60,8 +60,11 @@
    dotspacemacs-startup-buffer-responsive t
    dotspacemacs-scratch-mode 'text-mode
    dotspacemacs-themes '(
+                         spacemacs-light
                          sanityinc-tomorrow-night
+                         zenburn
                          sanityinc-tomorrow-day
+                         anti-zenburn
                          )
    dotspacemacs-colorize-cursor-according-to-state t
    dotspacemacs-default-font '("Consolas"
