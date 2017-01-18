@@ -7,8 +7,10 @@ docker
 eclipse
 emacs
 fasd
+feh
 htop
 lxappearance
+mupdf
 nitrogen
 pavucontrol
 pandoc
@@ -18,5 +20,4 @@ the_silver_searcher
 tmux
 vagrant
 neovim
-zathura
 zeal
