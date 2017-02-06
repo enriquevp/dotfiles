@@ -60,15 +60,13 @@
    dotspacemacs-startup-buffer-responsive t
    dotspacemacs-scratch-mode 'text-mode
    dotspacemacs-themes '(
-                         spacemacs-light
-                         sanityinc-tomorrow-night
-                         zenburn
-                         sanityinc-tomorrow-day
-                         anti-zenburn
+                         plan9
+                         sanityinc-solarized-dark
+                         sanityinc-solarized-light
                          )
    dotspacemacs-colorize-cursor-according-to-state t
-   dotspacemacs-default-font '("Consolas"
-                               :size 20
+   dotspacemacs-default-font '("Go Mono"
+                               :size 21
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
