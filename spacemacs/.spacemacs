@@ -23,6 +23,7 @@
      fasd
      git
      gnus
+     latex
      markdown
      (org :variables
           org-enable-reveal-js-support t)
