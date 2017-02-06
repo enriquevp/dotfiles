@@ -15,6 +15,7 @@
                       auto-completion-complete-with-key-sequence "jk"
                       auto-completion-enable-help-tooltip t)
      ansible
+     bibtex
      csv
      erc
      helm
