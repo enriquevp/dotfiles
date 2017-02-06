@@ -58,6 +58,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
+bindsym $mod+c exec --no-startup-id emacsclient -c
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -69,6 +70,8 @@ bindsym $mod+a focus parent
 # Dell XPS 13 keys and settings
 exec xinput set-prop 11 276 1
 exec xinput set-prop 11 294 0 1
+
+exec --no-startup-id emacs --daemon
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
