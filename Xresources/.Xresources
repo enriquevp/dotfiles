@@ -1,8 +1,5 @@
-*.foreground:   #ffffff
-*.background:   #09090d
-*.cursorColor:  #fffffc
-
-URxvt.font: xft:Consolas:size=15
+URxvt.font: xft:Go Mono:size=16
+rofi.font: Go Mono 14
 URxvt.lineSpace: -2
 URxvt.scrollBar: false
 
